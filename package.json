@@ -1,0 +1,11 @@
+{
+	"name": "dc-collab-auth",
+	"version": "0.1.0",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"fastify": "^2.14.1",
+		"fastify-static": "^2.7.0"
+	}
+}

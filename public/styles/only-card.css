@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+body {
+    font-family: Ubuntu, sans-serif;
+    display: flex;
+	height: 100vh;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 25px;
+    padding: 0;
+    background-color: #f2f6f7;
+}
+
+
+#card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    border: 1px solid #5fd2a0;
+    box-shadow: rgba(0, 0, 0, 0.05) 1px 2px 15px 0;
+}
+
+#card > .icon {
+    background-color: #5fd2a0;
+    background: linear-gradient(to top, #34cab5, #87d88b);
+    width: 64px;
+    height: 64px;
+    padding: 16px;
+    margin: 0 auto;
+    margin-top: -52px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+#card > h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+#card > h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 15px;
+    color: #555;
+    font-size: 15px;
+}
+
+footer > img {
+    vertical-align: middle;
+    margin: 0 2px;
+}
+
+footer > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+footer > small {
+	display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 13px;
+    opacity: 0.75;
+}
